@@ -9,8 +9,9 @@ export default function App() {
         <TextInput placeholder='Usuário'/>
         <TextInput placeholder='Senha' secureTextEntry={true}/>
       </View>
+      
       <View>
-        <TouchableOpacity>
+        <TouchableOpacity onPress= 'form();'>
           <Text>Entrar no Sistema</Text>
         </TouchableOpacity>
       </View>
